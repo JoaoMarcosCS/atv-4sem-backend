@@ -15,3 +15,28 @@ Antes de iniciar, você precisará ter instalado:
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/JoaoMarcosCS/atv-4sem-backend.git)
 cd seu-repositorio
+```
+
+### 2. Instalar as Dependências
+
+```bash
+npm install
+```
+
+### 3. Configurar Variáveis de Ambiente
+
+### 4. Rodar o Projeto
+
+```bash
+npm run start
+```
+
+Endpoints da API
+POST /products: Cria um novo produto.
+GET /products: Retorna todos os produtos.
+GET /products/
+: Retorna um produto específico.
+PATCH /products/
+: Atualiza um produto específico.
+DELETE /products/
+: Remove um produto específico.

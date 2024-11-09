@@ -13,5 +13,5 @@ Antes de iniciar, você precisará ter instalado:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/JoaoMarcosCS/atv-4sem-backend.git)
 cd seu-repositorio

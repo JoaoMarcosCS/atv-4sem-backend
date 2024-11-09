@@ -1,36 +1,17 @@
-# development
-$ npm run start
+# Projeto de API de Produtos com NestJS e TypeORM
 
-# watch mode
-$ npm run start:dev
+Este é um projeto básico de API para gerenciamento de produtos, desenvolvido com o framework [NestJS](https://nestjs.com/) e usando [TypeORM](https://typeorm.io/) como ORM para interagir com o banco de dados PostgreSQL.
 
-# production mode
-$ npm run start:prod
-```
+## Pré-requisitos
 
-## Test
+Antes de iniciar, você precisará ter instalado:
+
+- [Node.js](https://nodejs.org/en/download/) (versão 16 ou superior)
+
+## Configuração do Projeto
+
+### 1. Clonar o Repositório
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio

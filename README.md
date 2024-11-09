@@ -20,12 +20,11 @@ cd seu-repositorio
 ### 2. Instalar as Dependências
 
 ```bash
+npm install -g @nestjs/cli
 npm install
 ```
 
-### 3. Configurar Variáveis de Ambiente
-
-### 4. Rodar o Projeto
+### 3. Rodar o Projeto
 
 ```bash
 npm run start

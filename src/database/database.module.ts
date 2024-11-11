@@ -1,5 +1,6 @@
 import { Logger, Module, OnModuleInit } from '@nestjs/common';
 import { InjectDataSource, TypeOrmModule } from '@nestjs/typeorm';
+import { Product } from '../entities/product.entity';
 import { DataSource } from 'typeorm';
 
 @Module({
@@ -8,7 +9,7 @@ import { DataSource } from 'typeorm';
             type: 'postgres',
             logging: true,
             url: "postgresql://postgres.roppmcevdknqpcifgkfh:2YN1IUxkEfz1QaNC@aws-0-us-west-1.pooler.supabase.com:6543/postgres",
-            entities: [__dirname + '/entities/*.entity{.ts,.js}'],
+            entities: [Product],
             synchronize: true,
         }),
     ],

@@ -8,9 +8,16 @@ export class Product {
   @Column()
   name: string;
 
+  @Column({ type: 'text', nullable: true })
+  description?: string; 
+  
+  @Column({ type: 'int' })
+  quantity_in_stock: number;
+
   @Column('decimal')
   price: number;
 
-  @Column({ default: true })
-  isActive: boolean;
+  @Column({ type: 'text', nullable: true })
+  category?: string;
+
 }

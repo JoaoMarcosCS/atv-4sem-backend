@@ -20,4 +20,7 @@ export class Product {
   @Column({ type: 'text', nullable: true })
   category?: string;
 
+  @Column({ type: 'boolean', default: true })
+  isActive?: boolean;
+
 }

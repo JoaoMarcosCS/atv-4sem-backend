@@ -1,4 +1,4 @@
-import { IsString, IsOptional, IsInt, IsPositive, IsDecimal, Min, Max, IsNumberString } from 'class-validator';
+import { IsString, IsOptional, IsInt, IsPositive, IsDecimal, Min, Max, IsNumberString, IsBoolean } from 'class-validator';
 
 export class CreateProductDto {
     
@@ -20,5 +20,8 @@ export class CreateProductDto {
   @IsOptional()
   @IsString()
   category?: string;
+
+  @IsBoolean()
+  isActive?: boolean;
 }
 
